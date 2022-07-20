@@ -2,3 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+
+/* Header */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
