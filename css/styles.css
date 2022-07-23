@@ -132,6 +132,10 @@ body {
 
 /* <!--Team--> */
 
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -158,9 +162,11 @@ body {
   color: var(--second-color);
 }
 
+
 /* <!--Footer--> */
 
 .footer-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -170,10 +176,12 @@ body {
 
 .footer-link-mail,
 .footer-link-tell {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-color);
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
 }
 
 .footer-link-mail:hover,
@@ -189,12 +197,12 @@ body {
 /* <!-- Gallery --> */
 
 .gallery-btn {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color);
   cursor: pointer;
 }
 
