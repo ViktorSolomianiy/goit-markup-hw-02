@@ -196,6 +196,10 @@ body {
 
 /* <!-- Gallery --> */
 
+.gallery-item {
+  background-color: #ffffff;
+}
+
 .gallery-btn {
   font-family: "Roboto";
   font-weight: 500;
